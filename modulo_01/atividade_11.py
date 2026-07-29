@@ -1,0 +1,11 @@
+# Comparação entre dois números
+
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+
+print(f"Os números são iguais? {num1 == num2}")
+print(f"Os números são diferentes? {num1 != num2}")
+print(f"O primeiro é maior que o segundo? {num1 > num2}")
+print(f"O primeiro é menor que o segundo? {num1 < num2}")
+print(f"O primeiro é maior ou igual ao segundo? {num1 >= num2}")
+print(f"O primeiro é menor ou igual ao segundo? {num1 <= num2}")
